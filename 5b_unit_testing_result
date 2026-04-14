@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.15, pytest-9.0.3, pluggy-1.6.0 -- /usr/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /home/project/oaqjp-final-project-emb-ai
+plugins: langsmith-0.3.45, anyio-4.13.0
+collecting ... collected 5 items
+
+test_emotion_detection.py::TestEmotionDetection::test_anger PASSED       [ 20%]
+test_emotion_detection.py::TestEmotionDetection::test_disgust PASSED     [ 40%]
+test_emotion_detection.py::TestEmotionDetection::test_fear PASSED        [ 60%]
+test_emotion_detection.py::TestEmotionDetection::test_joy PASSED         [ 80%]
+test_emotion_detection.py::TestEmotionDetection::test_sadness PASSED     [100%]
+
+============================== 5 passed in 0.62s ===============================
